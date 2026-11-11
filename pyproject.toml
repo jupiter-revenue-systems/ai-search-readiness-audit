@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-search-readiness-audit"
+version = "1.0.0"
+description = "One-command audit of how ready a website is for AI search: Google AI Overviews and AI Mode, ChatGPT search, Perplexity, Claude, Gemini and Copilot."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jupiter Revenue Systems" }]
+keywords = ["seo", "ai-search", "geo", "aeo", "robots-txt", "llms-txt", "json-ld", "audit", "chatgpt", "perplexity"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jupiter-revenue-systems/ai-search-readiness-audit"
+Issues = "https://github.com/jupiter-revenue-systems/ai-search-readiness-audit/issues"
+
+[project.scripts]
+ai-search-audit = "audit:main"
+
+[tool.setuptools]
+py-modules = ["audit"]

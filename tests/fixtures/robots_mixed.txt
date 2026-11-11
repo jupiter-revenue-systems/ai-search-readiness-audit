@@ -1,0 +1,17 @@
+# Test robots.txt
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+User-agent: GPTBot
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /private/
+Allow: /private/press$
+
+Sitemap: https://acme.test/sitemap.xml
