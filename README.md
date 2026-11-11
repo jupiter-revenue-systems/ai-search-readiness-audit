@@ -1,4 +1,4 @@
-<!-- HERO -->
+<p align="center"><img src="assets/hero.jpg" alt="Is your site ready for AI search? A free Python CLI by Ekai Stone" width="100%"></p>
 
 # ai-search-readiness-audit
 
